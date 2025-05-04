@@ -37,7 +37,7 @@ function App() {
             <Route path="/dashboard" element={<MainLayouts><Dashboard /></MainLayouts>} />
 
             <Route path="/reports" element={<MainLayouts> <Reports /> </MainLayouts>} />
-            <Route path="/reports/editreports" element={<MainLayouts><EditReports /></MainLayouts>} />
+            <Route path="/reports/editreports/:userName" element={<MainLayouts><EditReports /></MainLayouts>} />
 
             <Route path="/user" element={<MainLayouts> <User /> </MainLayouts>} />
             <Route path="/user/adduser" element={<MainLayouts> <AddUser /> </MainLayouts>} />
