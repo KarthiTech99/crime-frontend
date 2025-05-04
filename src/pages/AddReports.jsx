@@ -50,7 +50,7 @@ const AddReports = () => {
   };
 
   return (
-    <div className="report-form-container" style={{ background: 'none', height: '100vh', width: '100vw' }}>
+    <div className="report-form-container" style={{ background: 'none', height: '100vh' }}>
       <MainHeader />
       <div className="container py-4" >
         <div className="card shadow-lg" style={{ marginTop: '150px' }}>
