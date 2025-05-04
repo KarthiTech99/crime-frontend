@@ -52,7 +52,7 @@ const AddReports = () => {
   return (
     <div className="report-form-container" style={{ background: 'none', height: '100vh' }}>
       <MainHeader />
-      <div className="container py-4 vw-100" >
+      <div className="container content-wrapper py-4 vw-100" >
         <div className="card shadow-lg" style={{ marginTop: '150px' }}>
           <div className="card-header bg-primary text-white">
             <h3 className="mb-0">
