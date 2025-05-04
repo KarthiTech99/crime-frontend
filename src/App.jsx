@@ -15,6 +15,7 @@ import EditUser from "./pages/Admin/EditUser";
 import HelpCenterAdmin from "./pages/Admin/HelpCenterAdmin";
 import AddFAQ from "./pages/Admin/AddFAQ";
 import EditFaq from "./pages/Admin/EditFaq";
+import EditReports from "./pages/Admin/EditReports";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
             <Route path="/dashboard" element={<MainLayouts><Dashboard /></MainLayouts>} />
 
             <Route path="/reports" element={<MainLayouts> <Reports /> </MainLayouts>} />
+            <Route path="/reports/editreports" element={<MainLayouts><EditReports /></MainLayouts>} />
 
             <Route path="/user" element={<MainLayouts> <User /> </MainLayouts>} />
             <Route path="/user/adduser" element={<MainLayouts> <AddUser /> </MainLayouts>} />
